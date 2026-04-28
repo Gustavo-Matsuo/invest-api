@@ -1,0 +1,9 @@
+package com.investprojeto.invest_api.repository;
+
+import com.investprojeto.invest_api.model.Ativo;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AtivoRepository extends JpaRepository<Ativo, Long> {
+}
